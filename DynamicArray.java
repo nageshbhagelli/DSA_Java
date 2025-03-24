@@ -17,8 +17,6 @@ What is a Dynamic Array?
 
 */
 
-package Arrays;
-
 @SuppressWarnings("unchecked")
 
 public class DynamicArray<T> implements Iterable<T> {
@@ -151,5 +149,9 @@ public class DynamicArray<T> implements Iterable<T> {
         sb.append(arr[i] + ", ");
       return sb.append(arr[len - 1] + "]").toString();
     }
+  }
+
+  public static void main(String[] args) {
+    System.out.println("This program deals with array data structure.");
   }
 }
